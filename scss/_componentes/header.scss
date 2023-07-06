@@ -1,0 +1,29 @@
+header {
+    background-color: $color-bg;
+    border-bottom: 3px ridge $color-brd;
+    div{
+        img{
+            height: 150px;
+            width: 250px;
+            padding: 10px 0px 20px 0px
+        }
+    }
+    nav{
+        font-family: "Kanit", sans-serif;
+        font-size: 35px;
+        color: $color-ppl;
+        font-weight: 450;
+        padding-top: 50px;
+        a{
+            text-decoration: none;
+            &:hover{
+                color: rgba(255, 255, 255, 0.562);
+            }
+        }
+    }
+}
+
+.navgalery{
+    display: flex;
+    justify-content: space-around;
+}

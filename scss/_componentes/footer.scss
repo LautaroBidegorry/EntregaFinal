@@ -1,0 +1,15 @@
+footer{
+    height: map-get($mapfooter , he );
+    border-top: map-get($mapfooter , brd-top );
+    background-color: map-get($mapfooter , bg-c );
+}
+
+
+footer div{   
+    padding: 50px 0 0 500px
+}
+footer div a img {
+    background:linear-gradient( rgb(97, 13, 41), rgb(160, 160, 160) );
+    height: 50px;
+    border-radius: 10px;
+}
