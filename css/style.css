@@ -36,6 +36,11 @@ header nav a {
 header nav a:hover {
   color: rgba(255, 255, 255, 0.562);
 }
+@media (max-width: 386px) {
+  header img {
+    margin-left: 60px;
+  }
+}
 
 .navgalery {
   display: flex;
@@ -65,6 +70,11 @@ main div p {
   text-align: center;
   margin-bottom: 100px;
 }
+@media (max-width: 386px) {
+  main .logocentral {
+    height: 150px;
+  }
+}
 
 .maingallery .gallery {
   background-color: rgba(226, 43, 104, 0.164);
@@ -73,17 +83,22 @@ main div p {
 }
 .maingallery .gallery img {
   height: 240px;
-  width: 480px;
+  width: 440px;
   margin: 5px 5px;
+  padding: 0;
   border: 5px ridge rgb(218, 28, 92);
 }
 .maingallery .gallery iframe {
   border: 5px ridge rgb(218, 28, 92);
-  min-width: 480px;
+  width: 440px;
+  padding: 0;
 }
-@media (max-width: 576px), (max-width: 960px) {
+@media (max-width: 386px) {
   .maingallery img, .maingallery iframe {
-    min-width: 440px;
+    max-width: 380px;
+  }
+  .maingallery .gallery {
+    margin: 0;
   }
 }
 
@@ -148,9 +163,9 @@ main div p {
   border-radius: 25px;
   padding: 0 50px;
 }
-@media (max-width: 600px) {
+@media (max-width: 386px) {
   .mainreq p {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -224,19 +239,9 @@ main div p {
 }
 
 footer {
-  height: 150px;
+  height: 180px;
   border-top: 3px ridge rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 0.486);
-}
-
-footer div {
-  padding: 50px 0 0 500px;
-}
-
-footer div a img {
-  background: linear-gradient(rgb(97, 13, 41), rgb(160, 160, 160));
-  height: 50px;
-  border-radius: 10px;
 }
 
 /**estilos globales**/

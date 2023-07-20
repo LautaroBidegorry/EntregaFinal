@@ -21,6 +21,11 @@ header {
             }
         }
     }
+    @media (max-width:386px){
+        img{
+            margin-left: 60px;
+        }
+    }
 }
 
 .navgalery{

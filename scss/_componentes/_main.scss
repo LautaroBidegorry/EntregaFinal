@@ -25,6 +25,11 @@ main{
             margin-bottom: 100px;
         }
     }
+    @media (max-width:386px){
+        .logocentral{
+            height: 150px
+        }
+    }
 }
 
 .maingallery{
@@ -35,19 +40,24 @@ main{
         border-radius: 15px;
         img{
             height: 240px;
-            width: 240px*2;
+            width: 220px*2;
             margin: 5px 5px;
+            padding: 0;
             border: 5px ridge $color-ppl
         }
         iframe{
             border: 5px ridge $color-ppl;
-            min-width: 240px*2;
+            width: 220px*2;
+            padding: 0;
         }
         
     }
-    @media (max-width:576px), (max-width:960px) {
+    @media (max-width:386px){
         img, iframe{
-            min-width: 220px*2;
+            max-width: 190px*2;
+        }
+        .gallery{
+            margin: 0;
         }
     }
 
@@ -115,9 +125,9 @@ main{
         border-radius: 25px;
         padding: 0 50px;
     }
-    @media (max-width:600px){
+    @media (max-width:386px){
         p{
-            font-size: 18px
+            font-size: 20px
         }
     }
 }
