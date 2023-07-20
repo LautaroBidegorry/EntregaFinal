@@ -78,11 +78,17 @@
         </section>
     </main>
     <!------------------------footer global----------------------------->
-    <footer class="container-fluid">
-        <div class="row justify-content-center">
-            <a class="col-lg-4 col-12" href="#"><img src="../img/icons8-logotipo-de-la-discordia-50.png" alt="Discord"></a>
-            <a class="col-lg-4 col-12" href="#"><img src="../img/icons8-youtube-play-50.png" alt="Youtube"></a>
-            <a class="col-lg-4 col-12" href="#"> <img src="../img/Twitter_Rounded_icon-icons.com_61577.png" alt="Twitter"></a>
+    <footer>
+        <h1>Solicitud de ingreso</h1>
+        <div class="container-fluid"> <!--formulario-->
+            <form class="row d-flex justify-content-around" action="documento.php" method="get">
+                <label class="label col-lg-3 col-sm-6" for="nombre" name="nombre">Nombre</label>
+                <input class="col-lg-3 col-sm-6" type="text" required name="nombre" placeholder="Ingresa tu nombre">
+                <label class="label col-lg-3 col-sm-6" for="comentario" name="comentario">Dejá un comentario</label>
+                <input class="col-lg-3 col-sm-6" type="text" name="comentario" placeholder="Escribí un comentario">
+
+                <input class="enviar col-3" type="submit" value="Enviar">
+            </form>
         </div>
     </footer>
 

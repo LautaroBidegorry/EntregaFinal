@@ -3,3 +3,56 @@ footer{
     border-top: map-get($mapfooter , brd-top );
     background-color: map-get($mapfooter , bg-c );
 }
+
+footer h1{
+    margin-top: 20px;
+    margin-left: 780px;
+    font-family: "Kanit", sans-serif;
+    color: $color-ppl;
+}
+
+footer div{
+    form{
+        padding-top: 30px;
+        padding-bottom: 100px;
+        label{
+            max-height: 65px;
+            max-width: 30px;
+            background-color: rgb(27, 27, 27);
+            color: $color-ppl;
+            font-family: "Kanit", sans-serif;
+            font-size: 18px;
+        }
+    }
+}
+.enviar{
+background-color: $color-bg;
+color: $color-ppl;
+padding: 10px;
+width: 150px;
+border: 1px solid $color-ppl;
+font-family: "Kanit", sans-serif;
+font-size: 20px;
+}
+
+.label{
+    width: 120px;
+    height: 90px;
+    padding-top: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+@media (max-width:386px){
+    footer h1{
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+    footer form {
+        width: 300px;
+        padding-left: 100px;
+    }
+    footer label{
+        margin-bottom: 20px;
+    }
+}
