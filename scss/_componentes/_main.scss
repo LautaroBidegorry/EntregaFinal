@@ -137,7 +137,7 @@ main{
     @include d-flex(flex, row, wrap, space-around, center);
     padding: 230px;
     img{
-        background-color: $color-bg;
+        background-color: rgba(0, 0, 0, 0.87);
         min-height: 400px;
         min-width: 300px*2;
         padding: 50px 20px;
@@ -145,7 +145,7 @@ main{
         border-radius: 25px;
     }
     .linkredes{
-        background-color: $color-bg;
+        background-color: rgba(0, 0, 0, 0.87);
             border-radius: 15px;
         a{
             font-family: 'Kanit', sans-serif;
@@ -155,13 +155,19 @@ main{
             text-decoration: none
         }
     }
-    @media (max-width:600px){
+    @media (max-width:386px){
+        div{
+            margin-top: 60px;
+            padding-right: 180px;
+        }
         img{
             min-height: 200px;
             min-width: 150px*2;  
+            margin-right: 120px;
         }
         .linkredes{
             border-radius: 15px;
+            margin-right: 66px;
             a{
                 font-size: 25px;
                 margin:30px;

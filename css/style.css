@@ -179,7 +179,7 @@ main div p {
   padding: 230px;
 }
 .contenidoredes img {
-  background-color: rgba(0, 0, 0, 0.486);
+  background-color: rgba(0, 0, 0, 0.87);
   min-height: 400px;
   min-width: 600px;
   padding: 50px 20px;
@@ -187,7 +187,7 @@ main div p {
   border-radius: 25px;
 }
 .contenidoredes .linkredes {
-  background-color: rgba(0, 0, 0, 0.486);
+  background-color: rgba(0, 0, 0, 0.87);
   border-radius: 15px;
 }
 .contenidoredes .linkredes a {
@@ -197,13 +197,19 @@ main div p {
   margin: 50px;
   text-decoration: none;
 }
-@media (max-width: 600px) {
+@media (max-width: 386px) {
+  .contenidoredes div {
+    margin-top: 60px;
+    padding-right: 180px;
+  }
   .contenidoredes img {
     min-height: 200px;
     min-width: 300px;
+    margin-right: 120px;
   }
   .contenidoredes .linkredes {
     border-radius: 15px;
+    margin-right: 66px;
   }
   .contenidoredes .linkredes a {
     font-size: 25px;
